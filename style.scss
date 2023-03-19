@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    // background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+//   background-color: #485461;
+background: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+main {
+    height: 100vh;
+}
+
+#hero-section {
+    margin: 0 auto;
+    background-color: #1d3557;
+    max-width: 450px;
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+input {
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: gray;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: whitesmoke;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: whitesmoke;
+}
+
+#lostPass {
+    display: flex;
+    flex-direction: row-reverse;
+}

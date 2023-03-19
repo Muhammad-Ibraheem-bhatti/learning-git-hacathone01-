@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(60deg, #29323c 0%, #485563 100%);
+   background-image: url("./assets/bg1.jpg");
+    background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  height: 100vh;
+}
+
+#hero-section {
+  margin: 0 auto;
+  background-color: #1d4050;
+  opacity: 0.8;
+  max-width: 450px;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+
+}
+#adminHeader::after{
+  content: " ";
+  position: absolute;
+  background-color:darkmagenta;
+  height: 5px;
+  width: 160px;
+  top: 85px;
+  left: 147px;
+}
+
+input {
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+::-moz-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: gray;
+  opacity: 1;
+  /* Firefox */
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: gray;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: whitesmoke;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: whitesmoke;
+}
+
+#lostPass {
+  display: flex;
+  flex-direction: row-reverse;
+}/*# sourceMappingURL=style.css.map */
+@media(max-width:360px)
+{
+  #adminHeader::after{
+  content: " ";
+  position: absolute;
+  background-color:darkmagenta;
+  height: 5px;
+  width: 160px;
+  top: 85px;
+  left: 90px;
+  display: none;
+}
+  
+}
+@media(max-width:575px)
+{
+  #adminHeader::after{
+  content: " ";
+  position: absolute;
+  background-color:darkmagenta;
+  height: 5px;
+  width: 160px;
+  top: 85px;
+  left: 115px;
+}
+  
+}
+
+@media(max-width:767px)
+{
+  #adminHeader::after{
+  content: " ";
+  position: absolute;
+  background-color:darkmagenta;
+  height: 5px;
+  width: 160px;
+  top: 85px;
+  left: 145px;
+}
+  
+}

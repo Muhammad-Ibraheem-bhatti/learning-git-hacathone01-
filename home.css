@@ -1,0 +1,12 @@
+#result-box{
+    min-height: 200px;
+}
+
+#twoBtn{
+    padding: 29px 0;
+}
+
+#clear-btn-2:hover{
+    color: white;
+    background: #000;
+}
